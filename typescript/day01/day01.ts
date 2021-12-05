@@ -27,7 +27,7 @@ function getIncreases(input: number[]): number {
 }
 
 function main() {
-    const filename = path.join(__dirname, 'input.txt');
+    const filename = path.join(__dirname, '..', '..', 'inputs/day01.txt');
     const input = readInput(filename);
 
     console.log("Part 1: " + getIncreases(input));

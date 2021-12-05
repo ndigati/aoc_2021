@@ -60,7 +60,7 @@ function calculateFinalPosition(input: Command[], withAim: boolean): Position {
 }
 
 function main() {
-    const filename = path.join(__dirname, 'input.txt');
+    const filename = path.join(__dirname, '..', '..', 'inputs/day02.txt');
     const input = readInput(filename);
 
     const part1 = calculateFinalPosition(input, false);
