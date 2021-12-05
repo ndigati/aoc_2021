@@ -1,0 +1,6 @@
+node_modules
+# OS metadata
+.DS_Store
+
+# typescript build js files
+out
